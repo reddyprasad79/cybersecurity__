@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — STACKLY Security</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a class="brand" href="index.html">
+      <svg class="mark" viewBox="0 0 32 32" fill="none"><path d="M16 2L28 7V15C28 22.5 22.8 27.8 16 30C9.2 27.8 4 22.5 4 15V7L16 2Z" stroke="#F5A524" stroke-width="2"/><path d="M11 16L14.5 19.5L21.5 12" stroke="#F5A524" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      STACKLY<span class="tag">Security</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="signin.html">Sign In</a>
+      <a class="btn btn-solid" href="register.html">Register</a>
+      <button class="menu-toggle" aria-label="Toggle menu"><svg width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M0 1H18M0 7H18M0 13H18" stroke="#E8ECF1" stroke-width="1.5"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<section class="section tight" style="padding-top:70px;">
+  <div class="container">
+    <div class="eyebrow">Field Notes</div>
+    <h1 style="font-size:44px; margin:18px 0 20px; max-width:640px;">Notes from the SOC floor.</h1>
+    <p style="max-width:600px; font-size:16.5px;">Write-ups on real threat patterns, response tactics, and compliance guidance from our analyst team.</p>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="container">
+    <div class="blog-grid">
+
+      <div class="blog-card">
+        <div class="thumb">
+          <svg width="100%" height="100%" viewBox="0 0 300 190">
+            <rect width="300" height="190" fill="#101B2E"/>
+            <line x1="0" y1="40" x2="300" y2="40" stroke="#1B2A41"/>
+            <line x1="0" y1="90" x2="300" y2="90" stroke="#1B2A41"/>
+            <line x1="0" y1="140" x2="300" y2="140" stroke="#1B2A41"/>
+            <circle cx="230" cy="65" r="18" fill="none" stroke="#F5A524" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="body">
+          <div class="meta">Threat Intel · Jun 2026</div>
+          <h3>The rise of credential-stuffing bots in Q2</h3>
+          <p>What we saw across 340 client environments, and the three controls that stopped 94% of attempts cold.</p>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="thumb">
+          <svg width="100%" height="100%" viewBox="0 0 300 190">
+            <rect width="300" height="190" fill="#101B2E"/>
+            <rect x="40" y="50" width="60" height="90" fill="none" stroke="#1B2A41"/>
+            <rect x="130" y="30" width="60" height="110" fill="none" stroke="#F5A524" stroke-width="2"/>
+            <rect x="220" y="65" width="45" height="75" fill="none" stroke="#1B2A41"/>
+          </svg>
+        </div>
+        <div class="body">
+          <div class="meta">Compliance · May 2026</div>
+          <h3>SOC 2 Type II: what actually slows teams down</h3>
+          <p>The five evidence-collection mistakes we see most often, and how to fix them before your audit window opens.</p>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="thumb">
+          <svg width="100%" height="100%" viewBox="0 0 300 190">
+            <rect width="300" height="190" fill="#101B2E"/>
+            <circle cx="150" cy="95" r="55" fill="none" stroke="#1B2A41"/>
+            <circle cx="150" cy="95" r="30" fill="none" stroke="#F5A524" stroke-width="2"/>
+            <line x1="150" y1="40" x2="150" y2="150" stroke="#1B2A41"/>
+          </svg>
+        </div>
+        <div class="body">
+          <div class="meta">Response · May 2026</div>
+          <h3>Anatomy of an 8-minute containment</h3>
+          <p>A walkthrough of a real ransomware attempt we isolated before encryption began — minute by minute.</p>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="thumb">
+          <svg width="100%" height="100%" viewBox="0 0 300 190">
+            <rect width="300" height="190" fill="#101B2E"/>
+            <path d="M60 140L110 70L160 110L210 40L250 90" fill="none" stroke="#F5A524" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="body">
+          <div class="meta">Cloud Security · Apr 2026</div>
+          <h3>The IAM misconfiguration we find in 7/10 audits</h3>
+          <p>Overly broad service roles remain the single biggest cloud risk factor we encounter. Here's the fix.</p>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="thumb">
+          <svg width="100%" height="100%" viewBox="0 0 300 190">
+            <rect width="300" height="190" fill="#101B2E"/>
+            <rect x="70" y="55" width="160" height="80" rx="4" fill="none" stroke="#1B2A41"/>
+            <line x1="70" y1="80" x2="230" y2="80" stroke="#1B2A41"/>
+            <circle cx="90" cy="67" r="4" fill="#E5484D"/>
+          </svg>
+        </div>
+        <div class="body">
+          <div class="meta">Awareness · Apr 2026</div>
+          <h3>Phishing simulations: what a good click-rate looks like</h3>
+          <p>Benchmarks from 12 months of simulated campaigns across industries, and what "good" actually means.</p>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="thumb">
+          <svg width="100%" height="100%" viewBox="0 0 300 190">
+            <rect width="300" height="190" fill="#101B2E"/>
+            <polygon points="150,40 220,150 80,150" fill="none" stroke="#F5A524" stroke-width="2"/>
+            <line x1="150" y1="80" x2="150" y2="115" stroke="#F5A524" stroke-width="2"/>
+            <circle cx="150" cy="130" r="2.5" fill="#F5A524"/>
+          </svg>
+        </div>
+        <div class="body">
+          <div class="meta">Pen Testing · Mar 2026</div>
+          <h3>Three exploit chains we keep finding in internal apps</h3>
+          <p>Recurring vulnerability chains across engagements, and the architectural fixes that close them for good.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-col">
+        <a class="brand" href="index.html" style="margin-bottom:14px;">
+          <svg class="mark" viewBox="0 0 32 32" fill="none"><path d="M16 2L28 7V15C28 22.5 22.8 27.8 16 30C9.2 27.8 4 22.5 4 15V7L16 2Z" stroke="#F5A524" stroke-width="2"/></svg>
+          STACKLY
+        </a>
+        <p>Managed detection, response, and compliance support for teams who can't afford to guess.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul><li><a href="services.html">Managed Detection &amp; Response</a></li><li><a href="services.html">Penetration Testing</a></li><li><a href="services.html">Compliance &amp; Governance</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Account</h4>
+        <ul><li><a href="signin.html">Sign In</a></li><li><a href="register.html">Register</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 STACKLY Security. All rights reserved.</span>
+      <span>CASE-LOG / SYSTEM NOMINAL</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
